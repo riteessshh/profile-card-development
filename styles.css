@@ -17,7 +17,6 @@ hr {
 
 .bgimgb {
   position: absolute;
-  object-fit: cover;
   left: 650px;
   top: 300px;
 }
