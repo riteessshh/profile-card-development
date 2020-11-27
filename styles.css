@@ -1,22 +1,46 @@
 body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
   text-align: center;
+  margin: 0;
 }
 
+hr {
+  margin-bottom: 25px;
+}
+
+.bgimga {
+  position: absolute;
+  right: 650px;
+  bottom: 300px;
+}
+
+.bgimgb {
+  position: absolute;
+  object-fit: cover;
+  left: 650px;
+  top: 300px;
+}
 .card {
+  background-color: white;
+  box-shadow: 2px 2px #000000;
   position: absolute;
   top: 25%;
   left: 37%;
+  border-radius: 4%;
+  padding-bottom: 30px;
 }
 .images {
   display: block;
 }
 .bg-pattern {
   left: 0;
+  border-top-left-radius: 4%;
+  border-top-right-radius: 4%;
 }
 .dp-img {
   position: absolute;
   border-radius: 50%;
-  border-color: white;
   border-width: 10px;
   border: 5px solid #ffffff;
 }
@@ -27,37 +51,69 @@ body {
 }
 
 .name {
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+  font-weight: 700;
   display: inline-block;
 }
 
 .age {
+  color: hsl(227, 10%, 46%);
+  font-size: 18px;
   display: inline-block;
+}
+
+.location {
+  color: hsl(227, 10%, 46%);
+  font-size: 12px;
+  margin-top: 0px;
 }
 
 .followers {
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+  font-weight: 700;
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 
 .fol {
+  color: hsl(227, 10%, 46%);
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 5px;
   display: block;
 }
 
 .likes {
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+  font-weight: 700;
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 
 .lik {
+  color: hsl(227, 10%, 46%);
+  font-size: 12px;
+  font-weight: lighter;
+  padding-top: 5px;
   display: block;
 }
 
 .photos {
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+  font-weight: 700;
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 
 .pho {
+  color: hsl(227, 10%, 46%);
+  font-size: 12px;
+  font-weight: lighter;
+  padding-top: 5px;
   display: block;
 }
 
