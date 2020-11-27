@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+}
+
+.card {
+  position: absolute;
+  top: 25%;
+  left: 37%;
+}
+.images {
+  display: block;
+}
+.bg-pattern {
+  left: 0;
+}
+.dp-img {
+  position: absolute;
+  border-radius: 50%;
+  border-color: white;
+  border-width: 10px;
+  border: 5px solid #ffffff;
+}
+
+.info {
+  margin: auto;
+  padding-top: 50px;
+}
+
+.name {
+  display: inline-block;
+}
+
+.age {
+  display: inline-block;
+}
+
+.followers {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.fol {
+  display: block;
+}
+
+.likes {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.lik {
+  display: block;
+}
+
+.photos {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.pho {
+  display: block;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 10px;
+  left: 41%;
+}
