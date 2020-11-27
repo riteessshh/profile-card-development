@@ -3,6 +3,8 @@ body {
   font-family: 'Kumbh Sans', sans-serif;
   text-align: center;
   margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 hr {
@@ -17,6 +19,7 @@ hr {
 
 .bgimgb {
   position: absolute;
+
   left: 650px;
   top: 300px;
 }
